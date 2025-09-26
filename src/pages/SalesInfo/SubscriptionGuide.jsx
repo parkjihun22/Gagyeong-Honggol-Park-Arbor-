@@ -8,7 +8,11 @@ import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
-import page1 from "../../assets/SalesInfo/SubscriptionGuide/legitimate.jpg";
+// import page1 from "../../assets/SalesInfo/SubscriptionGuide/legitimate.jpg";
+
+
+import Ready from "../../components/Ready/Ready";
+
 
 
 
@@ -16,7 +20,7 @@ import page1 from "../../assets/SalesInfo/SubscriptionGuide/legitimate.jpg";
 const ComplexGuide1 = () => {
   const menuContents = [
     { title: "공급안내", url: "/SalesInfo/guide" },
-    { title: "정당계약안내문", url: "/SalesInfo/SubscriptionGuide" },
+    // { title: "정당계약안내문", url: "/SalesInfo/SubscriptionGuide" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
     // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
   ];
@@ -85,12 +89,14 @@ const ComplexGuide1 = () => {
         </div>
 
         {/* 이미지에 애니메이션 효과 추가 */}
-        <img
+        {/* <img
           className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
           src={page1}
           alt="가경 홍골공원 아르보레 정당계약안내 이미지"
           onLoad={handleImageLoad}
-        />
+        /> */}
+
+        <Ready/>
 
       <div className={styles.commonBox2}>
         <div className={styles.notice}>

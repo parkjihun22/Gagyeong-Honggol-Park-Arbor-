@@ -11,15 +11,17 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 
-import page1 from "../../assets/Interior/Interior2/interior2.jpg";
+// import page1 from "../../assets/Interior/Interior2/interior2.jpg";
+
+import Ready from "../../components/Ready/Ready";
 
 
 
 const Interior2 = () => {
   const menuContents = [
-    { title: "84A", url: "/Interior/59A" },
-    { title: "84D", url: "/Interior/84A" },
-    { title: "114A", url: "/Interior/84B" },
+		{ title: "84A", url: "/Interior/59A" },
+		{ title: "84C", url: "/Interior/84A" },
+		// { title: "114A", url: "/Interior/84B" },
 
   ];
 
@@ -81,12 +83,14 @@ const Interior2 = () => {
 
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="가경 홍골공원 아르보레 84D 인테리어 안내 이미지2"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>
+			/> */}
+
+      <Ready/>
 
 
       <div className={styles.commonBox2}>

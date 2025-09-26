@@ -9,14 +9,17 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/SalesInfo/SalesInfoAnnouncement/supply.jpg";
-import pdfIcon from "../../assets/icons/pdf-icon.png";  // PDF 아이콘 이미지 임포트
+// import page1 from "../../assets/SalesInfo/SalesInfoAnnouncement/supply.jpg";
+// import pdfIcon from "../../assets/icons/pdf-icon.png";  // PDF 아이콘 이미지 임포트
+
+import Ready from "../../components/Ready/Ready";
+
 
 
 const ComplexGuide1 = () => {
   const menuContents = [
     { title: "공급안내", url: "/SalesInfo/guide" },
-    { title: "정당계약안내문", url: "/SalesInfo/SubscriptionGuide" },
+    // { title: "정당계약안내문", url: "/SalesInfo/SubscriptionGuide" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
     // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
   ];
@@ -94,17 +97,19 @@ const ComplexGuide1 = () => {
 
 
 
-      <img
+      {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
         alt="가경 홍골공원 아르보레모집공고안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-         />
+         /> */}
       {/* 입주자 모집공고 PDF로 보기 버튼 */}
-       <button onClick={openPDF} className={styles.pdfButton}>
+       {/* <button onClick={openPDF} className={styles.pdfButton}>
                 <img src={pdfIcon} alt="PDF 아이콘" className={styles.pdfIcon} /> 
                 <span>모집공고 PDF<br/>확인하기</span>
-            </button>
+            </button> */}
+
+            <Ready/>
 
 
       {/* 로딩 중일 때 표시할 스피너 */}
