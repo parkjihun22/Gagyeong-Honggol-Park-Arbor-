@@ -66,17 +66,17 @@ const Interior2 = () => {
       <MenuBar contents={menuContents} />
     {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
     <h1 className={styles.screenReaderOnly}>
-      가경 홍골공원 아르보레 - 인테리어
+      김포 오퍼스 한강스위첸 - 인테리어
     </h1>
     <p className={styles.screenReaderOnly}>
-      가경 홍골공원 아르보레 타입 인테리어는 넓은 거실과 오픈형 주방 설계,
+      김포 오퍼스 한강스위첸 타입 인테리어는 넓은 거실과 오픈형 주방 설계,
       고급 마감재, 수납 특화 공간이 돋보입니다. 안방 드레스룸, 팬트리, 발코니 확장 등
       입주민의 라이프스타일에 최적화된 공간 구성을 경험하세요.
     </p>
 
     <div className={styles.textBox}>
       <div>공간의 여유를 담은 </div>
-      <div>가경 홍골공원 아르보레, 프리미엄 인테리어로 완성하다</div>
+      <div>김포 오퍼스 한강스위첸, 프리미엄 인테리어로 완성하다</div>
     </div>
 
 
@@ -86,7 +86,7 @@ const Interior2 = () => {
       {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="가경 홍골공원 아르보레 84D 인테리어 안내 이미지2"
+				alt="김포 오퍼스 한강스위첸 84D 인테리어 안내 이미지2"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

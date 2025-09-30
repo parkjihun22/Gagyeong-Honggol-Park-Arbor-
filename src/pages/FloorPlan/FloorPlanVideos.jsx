@@ -65,13 +65,13 @@ const FloorPlanVideos = () => {
       <MenuBar contents={menuContents} />
 
       <h1 className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 - 홍보영상
+        김포 오퍼스 한강스위첸 - 홍보영상
       </h1>
       <p className={styles.screenReaderOnly}>세대안내영상 안내 페이지입니다.</p>
 
 			<div className={styles.textBox}>
 			<div>화양지구의 눈부신 가치 위에</div>
-			<div>가경 홍골공원 아르보레의 새로운 자부심으로 찾아옵니다.</div>
+			<div>김포 오퍼스 한강스위첸의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
       {/* 탭 메뉴 */}

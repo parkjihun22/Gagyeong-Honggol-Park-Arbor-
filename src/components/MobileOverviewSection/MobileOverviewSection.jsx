@@ -24,7 +24,7 @@ const items = [
       <ul className={styles.detailList}>
         <li>
           <strong>사업명</strong>
-          <span>가경 홍골공원 아르보레</span>
+          <span>김포 오퍼스 한강스위첸</span>
         </li>
         <li>
           <strong>대지위치</strong>
@@ -54,12 +54,12 @@ const items = [
         <img
           src={mobileMap}
           className={styles.mapImage}
-          alt="가경 홍골공원 아르보레 입지환경 지도 1"
+          alt="김포 오퍼스 한강스위첸 입지환경 지도 1"
         />
         <img
           src={mobileMap2}
           className={styles.mapImage}
-          alt="가경 홍골공원 아르보레 입지환경 지도 2"
+          alt="김포 오퍼스 한강스위첸 입지환경 지도 2"
         />
       </div>
     ),
@@ -74,7 +74,7 @@ const items = [
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
             사직1구역 최중심 입지와 행정·의료·생활 인프라를 누리는<br />
-            가경 홍골공원 아르보레 프리미엄 라이프
+            김포 오퍼스 한강스위첸 프리미엄 라이프
           </p>
         </div>
         {/* 슬라이더 */}

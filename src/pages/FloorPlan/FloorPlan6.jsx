@@ -58,20 +58,20 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="가경 홍골공원 아르보레 119B 평면image" />
+			<Bener title="김포 오퍼스 한강스위첸 119B 평면image" />
 
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
         <div>공원 특례, 7개동 921세대 민간임대</div>
-        <div>가경 홍골공원 아르보레가 새로운 주거 기준을 제시합니다.</div>
+        <div>김포 오퍼스 한강스위첸가 새로운 주거 기준을 제시합니다.</div>
       </div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			{/*<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="가경 홍골공원 아르보레 이미지3"
+				alt="김포 오퍼스 한강스위첸 이미지3"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>*/}
 

@@ -49,18 +49,18 @@ const Emodel = () => {
     <div className={styles.container}>
       <Helmet>
         {/* 핵심 SEO 페이지: E-모델하우스 */}
-        <title>가경 홍골공원 아르보레 - E-모델하우스</title>
+        <title>김포 오퍼스 한강스위첸 - E-모델하우스</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레 E-모델하우스를 온라인에서 둘러보세요. VR 가상 투어로 전용 84㎡ 중심(타입 A/B/C) 평면과 인테리어, 수납·동선 특화를 실제처럼 확인할 수 있습니다."
+          content="김포 오퍼스 한강스위첸 E-모델하우스를 온라인에서 둘러보세요. VR 가상 투어로 전용 84㎡ 중심(타입 A/B/C) 평면과 인테리어, 수납·동선 특화를 실제처럼 확인할 수 있습니다."
         />
         <meta name="robots" content="index,follow" />
         <link rel="canonical" href="https://www.sketchs.co.kr/FloorPlan/Emodel" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
-        <meta property="og:title" content="가경 홍골공원 아르보레 - E-모델하우스" />
+        <meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
+        <meta property="og:title" content="김포 오퍼스 한강스위첸 - E-모델하우스" />
         <meta
           property="og:description"
           content="E-모델하우스: 전용 84㎡ 중심(타입 A/B/C) VR 투어, 평면·인테리어·수납 특화를 실감나게 체험하세요."
@@ -72,7 +72,7 @@ const Emodel = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="가경 홍골공원 아르보레 - E-모델하우스" />
+        <meta name="twitter:title" content="김포 오퍼스 한강스위첸 - E-모델하우스" />
         <meta
           name="twitter:description"
           content="온라인 VR로 전용 84㎡(타입 A/B/C) 공간을 둘러보고, 평면도와 인테리어·수납 포인트를 실제처럼 경험하세요."
@@ -85,10 +85,10 @@ const Emodel = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: "가경 홍골공원 아르보레 - E-모델하우스",
+            name: "김포 오퍼스 한강스위첸 - E-모델하우스",
             url: "https://www.sketchs.co.kr/FloorPlan/Emodel",
             description:
-              "가경 홍골공원 아르보레 E-모델하우스: VR 가상 투어로 전용 84㎡(타입 A/B/C) 평면·인테리어·수납·동선 특화를 온라인에서 확인하세요.",
+              "김포 오퍼스 한강스위첸 E-모델하우스: VR 가상 투어로 전용 84㎡(타입 A/B/C) 평면·인테리어·수납·동선 특화를 온라인에서 확인하세요.",
             primaryImageOfPage: {
               "@type": "ImageObject",
               contentUrl: "https://www.sketchs.co.kr/img/og/emodel.jpg",
@@ -116,7 +116,7 @@ const Emodel = () => {
       <Bener title="E-모델하우스" />
       <MenuBar contents={menuContents} />
 
-      <h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - E-모델하우스</h1>
+      <h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - E-모델하우스</h1>
 
       <div className={styles.tabMenu}>
         {menuContents.slice(0, 5).map((tab, idx) => (

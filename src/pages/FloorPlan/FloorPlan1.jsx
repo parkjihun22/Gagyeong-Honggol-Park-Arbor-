@@ -70,7 +70,7 @@ const FloorPlan1 = () => {
 
       <div className={styles.textBox}>
         <div>공원 특례, 7개동 921세대 민간임대</div>
-        <div>가경 홍골공원 아르보레가 새로운 주거 기준을 제시합니다.</div>
+        <div>김포 오퍼스 한강스위첸가 새로운 주거 기준을 제시합니다.</div>
       </div>
 
 
@@ -78,7 +78,7 @@ const FloorPlan1 = () => {
       {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="가경 홍골공원 아르보레 평면안내이미지1"
+				alt="김포 오퍼스 한강스위첸 평면안내이미지1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
       <Ready/>

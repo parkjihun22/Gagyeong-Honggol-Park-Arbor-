@@ -64,10 +64,10 @@ const ComplexGuide1 = () => {
 
         {/* SEO: 페이지 제목/설명 */}
         <h1 className={styles.screenReaderOnly}>
-          가경 홍골공원 아르보레 - 인지세 납부 안내
+          김포 오퍼스 한강스위첸 - 인지세 납부 안내
         </h1>
         <p className={styles.screenReaderOnly}>
-          가경 홍골공원 아르보레 인지세 납부 안내 페이지에서는 분양계약 시 발생하는 인지세 정보를 제공합니다.
+          김포 오퍼스 한강스위첸 인지세 납부 안내 페이지에서는 분양계약 시 발생하는 인지세 정보를 제공합니다.
           인지세는 계약서 작성 시 부과되는 세금으로, 세액 산정 기준과 납부 절차를 사전에 확인하는 것이 중요합니다.
           본 안내에서는 인지세 금액, 납부 방법, 제출 기한 및 유의사항을 상세히 설명하여,
           계약자가 혼동 없이 준비할 수 있도록 돕습니다.
@@ -76,7 +76,7 @@ const ComplexGuide1 = () => {
         {/* 히어로 카피 */}
         <div className={styles.textBox}>
           <div>분양계약 전 꼭 확인해야 할 세금</div>
-          <div>가경 홍골공원 아르보레, 인지세 납부 가이드</div>
+          <div>김포 오퍼스 한강스위첸, 인지세 납부 가이드</div>
         </div>
 
 
@@ -84,7 +84,7 @@ const ComplexGuide1 = () => {
       {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="가경 홍골공원 아르보레 인지세 납부 안내 이미지"
+        alt="김포 오퍼스 한강스위첸 인지세 납부 안내 이미지"
         onLoad={handleImageLoad}
       /> */}
 

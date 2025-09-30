@@ -53,18 +53,18 @@ const ComplexGuide3 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>가경 홍골공원 아르보레 - 커뮤니티</title>
+        <title>김포 오퍼스 한강스위첸 - 커뮤니티</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레 커뮤니티를 소개합니다. 피트니스센터·실내골프연습장·GX룸·독서실·스터디룸·어린이집·게스트하우스(예정) 등 한양수자인의 세심한 커뮤니티로 생활 품격을 높이세요."
+          content="김포 오퍼스 한강스위첸 커뮤니티를 소개합니다. 피트니스센터·실내골프연습장·GX룸·독서실·스터디룸·어린이집·게스트하우스(예정) 등 한양수자인의 세심한 커뮤니티로 생활 품격을 높이세요."
         />
         <link rel="canonical" href="https://www.sketchs.co.kr/ComplexGuide/community" />
         <meta name="robots" content="index,follow" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
-        <meta property="og:title" content="가경 홍골공원 아르보레 - 커뮤니티" />
+        <meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
+        <meta property="og:title" content="김포 오퍼스 한강스위첸 - 커뮤니티" />
         <meta
           property="og:description"
           content="피트니스·실내골프·GX룸·독서실·스터디룸·어린이집·라운지·게스트하우스(예정) 등 공원과 맞닿은 커뮤니티를 한눈에."
@@ -79,9 +79,9 @@ const ComplexGuide3 = () => {
       <MenuBar contents={menuContents} />
 
       {/* SEO: 페이지 제목/설명 */}
-      <h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 커뮤니티</h1>
+      <h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 커뮤니티</h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레 커뮤니티 페이지에서는 공원 일체형 동선과 함께 단지 내 다양한 편의시설을 소개합니다.
+        김포 오퍼스 한강스위첸 커뮤니티 페이지에서는 공원 일체형 동선과 함께 단지 내 다양한 편의시설을 소개합니다.
         피트니스센터, 실내골프연습장, GX룸, 독서실·스터디룸, 어린이집, 라운지, 게스트하우스(예정) 등
         입주민이 편리하게 이용할 수 있는 시설을 통해 일상에 여가와 배움을 더하고,
         이웃과 교류하는 건강한 공동체 문화를 만들어갑니다.
@@ -90,7 +90,7 @@ const ComplexGuide3 = () => {
       {/* 히어로 카피 */}
       <div className={styles.textBox}>
         <div>라이프스타일을 채우는 공간</div>
-        <div>가경 홍골공원 아르보레, 공원과 이어진 한양수자인 커뮤니티</div>
+        <div>김포 오퍼스 한강스위첸, 공원과 이어진 한양수자인 커뮤니티</div>
       </div>
 
 
@@ -100,7 +100,7 @@ const ComplexGuide3 = () => {
       {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="가경 홍골공원 아르보레 커뮤니티 안내 -image1"
+				alt="김포 오퍼스 한강스위첸 커뮤니티 안내 -image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

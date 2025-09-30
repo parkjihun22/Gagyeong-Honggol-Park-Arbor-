@@ -83,21 +83,21 @@ const LocationEnvironment1 = () => {
     <div className={styles.container}>
       <Helmet>
         {/* 페이지별 메타: title/description/og/canonical 만 관리 */}
-        <title>가경 홍골공원 아르보레 - 입지환경</title>
+        <title>김포 오퍼스 한강스위첸 - 입지환경</title>
         <meta
           name="description"
-          content="가경 홍골공원 아르보레의 입지환경을 확인하세요. 가경동 홍골근린공원 특례사업 인접, 2·3순환로·청주강서IC·BRT·KTX 오송역 연계로 광역 접근 우수. 홈플러스·터미널 상권·의료·교육까지 원스톱 생활 인프라."
+          content="김포 오퍼스 한강스위첸의 입지환경을 확인하세요. 가경동 홍골근린공원 특례사업 인접, 2·3순환로·청주강서IC·BRT·KTX 오송역 연계로 광역 접근 우수. 홈플러스·터미널 상권·의료·교육까지 원스톱 생활 인프라."
         />
         <meta name="robots" content="index,follow" />
         <link rel="canonical" href="https://www.sketchs.co.kr/LocationEnvironment/intro" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
-        <meta property="og:title" content="가경 홍골공원 아르보레 - 입지환경" />
+        <meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
+        <meta property="og:title" content="김포 오퍼스 한강스위첸 - 입지환경" />
         <meta
           property="og:description"
-          content="도심·광역 교통과 생활 인프라가 집약된 가경 홍골공원 아르보레의 핵심 입지 정보를 한눈에. 공원 일체형 입지, 2·3순환로·IC·BRT·KTX 오송 접근성, 홈플러스·터미널 상권."
+          content="도심·광역 교통과 생활 인프라가 집약된 김포 오퍼스 한강스위첸의 핵심 입지 정보를 한눈에. 공원 일체형 입지, 2·3순환로·IC·BRT·KTX 오송 접근성, 홈플러스·터미널 상권."
         />
         <meta property="og:url" content="https://www.sketchs.co.kr/LocationEnvironment/intro" />
         <meta property="og:image" content="https://www.sketchs.co.kr/img/og/location.jpg" />
@@ -106,7 +106,7 @@ const LocationEnvironment1 = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="가경 홍골공원 아르보레 - 입지환경" />
+        <meta name="twitter:title" content="김포 오퍼스 한강스위첸 - 입지환경" />
         <meta
           name="twitter:description"
           content="가경동 홍골공원 특례 인접, 2·3순환로·청주강서IC·BRT·KTX 오송까지 편리한 접근과 홈플러스·터미널 상권 등 풍부한 인프라."
@@ -119,7 +119,7 @@ const LocationEnvironment1 = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: "가경 홍골공원 아르보레 - 입지환경",
+            name: "김포 오퍼스 한강스위첸 - 입지환경",
             url: "https://www.sketchs.co.kr/LocationEnvironment/intro",
             description:
               "가경동 홍골근린공원 특례 인접, 2·3순환로·청주강서IC·BRT·KTX 오송역 연계로 광역 이동이 편리하고, 홈플러스·고속/시외버스터미널 상권·의료·교육 인프라를 갖춘 입지환경.",
@@ -148,9 +148,9 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
 
       {/* SEO: 페이지 제목/설명 */}
-      <h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 입지환경</h1>
+      <h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 입지환경</h1>
       <p className={styles.screenReaderOnly}>
-        가경 홍골공원 아르보레는 가경동 홍골근린공원 특례사업과 맞닿은 공원 일체형 입지입니다.
+        김포 오퍼스 한강스위첸는 가경동 홍골근린공원 특례사업과 맞닿은 공원 일체형 입지입니다.
         2·3순환로와 청주강서IC, BRT·고속/시외버스터미널, KTX 오송역 연계로 광역 이동이 편리하며,
         홈플러스와 터미널 상권, 의료·교육·문화 인프라가 가까운 원스톱 생활권을 제공합니다.
       </p>
@@ -158,7 +158,7 @@ const LocationEnvironment1 = () => {
       {/* 히어로 카피 교체 */}
       <div className={styles.textBox}>
         <div>공원과 도심, 모두 가까운 입지</div>
-        <div>가경 홍골공원 아르보레에서 누리는 생활·교통 프리미엄</div>
+        <div>김포 오퍼스 한강스위첸에서 누리는 생활·교통 프리미엄</div>
       </div>
 
 
@@ -166,7 +166,7 @@ const LocationEnvironment1 = () => {
       <img
         src={page1}
         className={styles.image2}
-        alt="가경 홍골공원 아르보레입지환경-image1"
+        alt="김포 오퍼스 한강스위첸입지환경-image1"
       />
 
       <div className={styles.section2}>
@@ -181,7 +181,7 @@ const LocationEnvironment1 = () => {
 
       <div className={styles.commonBox}>
         <div className={styles.notice}>
-          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 가경 홍골공원 아르보레 사업주체 및 시공사와 무관합니다.
+          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 김포 오퍼스 한강스위첸 사업주체 및 시공사와 무관합니다.
         </div>
       </div>
 

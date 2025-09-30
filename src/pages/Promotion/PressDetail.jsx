@@ -45,7 +45,7 @@ export default function PressDetail() {
       <Bener />
       <MenuBar
         contents={[
-          { title: "언론보도", url: `/가경 홍골공원 아르보레/press` },
+          { title: "언론보도", url: `/김포 오퍼스 한강스위첸/press` },
           { title: "방문예약등록", url: `/purgio/customer` },
         ]}
       />

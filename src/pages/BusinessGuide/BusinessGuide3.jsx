@@ -64,10 +64,10 @@ const BusinessGuide2 = () => {
 		<div className={styles.container}>
 			<Helmet>
 			{/* 필수 메타 */}
-			<title>가경 홍골공원 아르보레 - 계약서류안내</title>
+			<title>김포 오퍼스 한강스위첸 - 계약서류안내</title>
 			<meta
 				name="description"
-				content="가경 홍골공원 아르보레 임대차 계약 서류 안내. 신분증, 주민등록등본, 인감증명서 등 필수 제출서류와 대리인·공동명의·세대구성별 준비 절차, 유의사항을 빠르고 정확하게 확인하세요."
+				content="김포 오퍼스 한강스위첸 임대차 계약 서류 안내. 신분증, 주민등록등본, 인감증명서 등 필수 제출서류와 대리인·공동명의·세대구성별 준비 절차, 유의사항을 빠르고 정확하게 확인하세요."
 			/>
 			<meta name="robots" content="index,follow" />
 			<link
@@ -77,11 +77,11 @@ const BusinessGuide2 = () => {
 
 			{/* Open Graph */}
 			<meta property="og:type" content="website" />
-			<meta property="og:site_name" content="가경 홍골공원 아르보레" />
-			<meta property="og:title" content="가경 홍골공원 아르보레 - 계약서류안내" />
+			<meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
+			<meta property="og:title" content="김포 오퍼스 한강스위첸 - 계약서류안내" />
 			<meta
 				property="og:description"
-				content="가경 홍골공원 아르보레 임대차 계약서류 안내: 신분증·주민등록등본·인감증명서 등 필수 서류, 대리인 계약 시 위임장·가족관계증명서, 유의사항까지 한눈에."
+				content="김포 오퍼스 한강스위첸 임대차 계약서류 안내: 신분증·주민등록등본·인감증명서 등 필수 서류, 대리인 계약 시 위임장·가족관계증명서, 유의사항까지 한눈에."
 			/>
 			<meta property="og:url" content="https://www.sketchs.co.kr/BusinessGuide/documents" />
 			<meta property="og:image" content="https://www.sketchs.co.kr/Main1.png" />
@@ -93,9 +93,9 @@ const BusinessGuide2 = () => {
 			<MenuBar contents={menuContents} />
 
 			{/* SEO: 페이지 제목/설명 */}
-			<h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 계약서류안내</h1>
+			<h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 계약서류안내</h1>
 			<p className={styles.screenReaderOnly}>
-			가경 홍골공원 아르보레 계약서류안내 페이지에서는 임대차 계약에 필요한 서류를 정리해 드립니다.
+			김포 오퍼스 한강스위첸 계약서류안내 페이지에서는 임대차 계약에 필요한 서류를 정리해 드립니다.
 			계약 체결 시 신분증, 주민등록등본, 인감증명서, 인감도장 등 필수 제출서류와 함께
 			제출 기한, 대리인 계약 시 위임장·가족관계증명서 등 추가 서류, 공동명의·세대구성별 유의사항을 안내하여
 			혼동 없이 준비하실 수 있도록 돕습니다.
@@ -104,14 +104,14 @@ const BusinessGuide2 = () => {
 			{/* 히어로 카피 */}
 			<div className={styles.textBox}>
 			<div>임대차 계약을 위한 첫 걸음</div>
-			<div>가경 홍골공원 아르보레, 준비된 서류로 안심 계약하세요.</div>
+			<div>김포 오퍼스 한강스위첸, 준비된 서류로 안심 계약하세요.</div>
 			</div>
 
 
 
 
 			{/* 이미지에 isImageVisible 상태 적용 */}
-			{/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="가경 홍골공원 아르보레 계약서류안내-image1" /> */}
+			{/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="김포 오퍼스 한강스위첸 계약서류안내-image1" /> */}
 
 
 

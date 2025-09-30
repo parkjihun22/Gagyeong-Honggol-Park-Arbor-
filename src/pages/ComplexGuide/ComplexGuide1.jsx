@@ -54,21 +54,21 @@ const ComplexGuide1 = () => {
 		<div className={styles.container}>
 			<Helmet>
 			{/* 페이지별 메타 */}
-			<title>가경 홍골공원 아르보레 - 단지배치도</title>
+			<title>김포 오퍼스 한강스위첸 - 단지배치도</title>
 			<meta
 				name="description"
-				content="가경 홍골공원 아르보레 단지배치도: 공원 일체형 설계로 동 배치·조경·커뮤니티·주차·보행 동선을 최적화했습니다. 남향 위주 배치와 보행 중심 지상 설계로 쾌적한 일상을 제공합니다."
+				content="김포 오퍼스 한강스위첸 단지배치도: 공원 일체형 설계로 동 배치·조경·커뮤니티·주차·보행 동선을 최적화했습니다. 남향 위주 배치와 보행 중심 지상 설계로 쾌적한 일상을 제공합니다."
 			/>
 			<meta name="robots" content="index,follow" />
 			<link rel="canonical" href="https://www.sketchs.co.kr/ComplexGuide/intro" />
 
 			{/* Open Graph */}
 			<meta property="og:type" content="website" />
-			<meta property="og:site_name" content="가경 홍골공원 아르보레" />
-			<meta property="og:title" content="가경 홍골공원 아르보레 - 단지배치도" />
+			<meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
+			<meta property="og:title" content="김포 오퍼스 한강스위첸 - 단지배치도" />
 			<meta
 				property="og:description"
-				content="가경 홍골공원 아르보레 단지배치도: 공원과 맞닿은 동 배치, 대규모 조경, 지상 보행 중심 동선, 커뮤니티 위치까지 한눈에."
+				content="김포 오퍼스 한강스위첸 단지배치도: 공원과 맞닿은 동 배치, 대규모 조경, 지상 보행 중심 동선, 커뮤니티 위치까지 한눈에."
 			/>
 			<meta property="og:url" content="https://www.sketchs.co.kr/ComplexGuide/intro" />
 			<meta property="og:image" content="https://www.sketchs.co.kr/img/og/complex.jpg" />
@@ -77,7 +77,7 @@ const ComplexGuide1 = () => {
 
 			{/* Twitter */}
 			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:title" content="가경 홍골공원 아르보레 - 단지배치도" />
+			<meta name="twitter:title" content="김포 오퍼스 한강스위첸 - 단지배치도" />
 			<meta
 				name="twitter:description"
 				content="공원 일체형 배치, 보행 중심 지상 설계, 커뮤니티 동선까지 살펴보는 단지배치도."
@@ -90,10 +90,10 @@ const ComplexGuide1 = () => {
 				{JSON.stringify({
 				"@context": "https://schema.org",
 				"@type": "WebPage",
-				name: "가경 홍골공원 아르보레 - 단지배치도",
+				name: "김포 오퍼스 한강스위첸 - 단지배치도",
 				url: "https://www.sketchs.co.kr/ComplexGuide/intro",
 				description:
-					"가경 홍골공원 아르보레 단지배치도: 공원과 맞닿은 동 배치, 조경, 커뮤니티, 주차·보행 동선을 확인하세요.",
+					"김포 오퍼스 한강스위첸 단지배치도: 공원과 맞닿은 동 배치, 조경, 커뮤니티, 주차·보행 동선을 확인하세요.",
 				primaryImageOfPage: {
 					"@type": "ImageObject",
 					contentUrl: "https://www.sketchs.co.kr/img/og/complex.jpg",
@@ -117,9 +117,9 @@ const ComplexGuide1 = () => {
 			<MenuBar contents={menuContents} />
 
 			{/* SEO: 페이지 제목/설명 */}
-			<h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 단지배치도</h1>
+			<h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 단지배치도</h1>
 			<p className={styles.screenReaderOnly}>
-			가경 홍골공원 아르보레의 단지배치도는 공원 특례 기반의 공원 일체형 설계를 보여줍니다.
+			김포 오퍼스 한강스위첸의 단지배치도는 공원 특례 기반의 공원 일체형 설계를 보여줍니다.
 			남향 위주 동 배치와 넓은 동간거리, 지상 보행 중심·지하 주차 동선, 커뮤니티와 조경의 연결을
 			시각적으로 제공해 단지 공간을 명확히 이해할 수 있도록 돕습니다.
 			</p>
@@ -127,14 +127,14 @@ const ComplexGuide1 = () => {
 			{/* 히어로 카피 */}
 			<div className={styles.textBox}>
 			<div>공원과 동선이 맞닿는 설계</div>
-			<div>가경 홍골공원 아르보레, 보행 중심 공원형 단지의 일상</div>
+			<div>김포 오퍼스 한강스위첸, 보행 중심 공원형 단지의 일상</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			{/* <img
 			className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 			src={page1}
-			alt="가경 홍골공원 아르보레 단지배치도-image1"
+			alt="김포 오퍼스 한강스위첸 단지배치도-image1"
 			onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

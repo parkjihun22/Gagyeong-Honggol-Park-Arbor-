@@ -14,7 +14,7 @@ import { Helmet } from "react-helmet-async";
 
 
 const projectData = [
-	{ label: '사업명', value: '가경 홍골공원 아르보레' },
+	{ label: '사업명', value: '김포 오퍼스 한강스위첸' },
 	{ label: '사업위치', value: '충청북도 청주시 흥덕구 가경동 일원' },
 	{ label: '대지면적', value: '추후 공고(홍골공원 특례사업 부지 내)' },
 	{ label: '건축면적', value: '추후 공고' },
@@ -63,7 +63,7 @@ const BusinessGuide1 = () => {
 
 			<Helmet>
 			{/* 페이지별 메타: title/description/og/canonical 만 관리 */}
-			<title>가경 홍골공원 아르보레 - 사업안내</title>
+			<title>김포 오퍼스 한강스위첸 - 사업안내</title>
 			<meta
 				name="description"
 				content="청주 가경 홍골공원 특례사업 내 공원 일체형 단지. 지하2~지상29층 7개 동 921세대(전용 84㎡ 중심), 10년 민간임대 후 분양전환(예정). 입지·사업 개요를 확인하세요."
@@ -73,8 +73,8 @@ const BusinessGuide1 = () => {
 
 			{/* Open Graph */}
 			<meta property="og:type" content="website" />
-			<meta property="og:site_name" content="가경 홍골공원 아르보레" />
-			<meta property="og:title" content="가경 홍골공원 아르보레 - 사업안내" />
+			<meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
+			<meta property="og:title" content="김포 오퍼스 한강스위첸 - 사업안내" />
 			<meta
 				property="og:description"
 				content="공원 특례·민간임대 프리미엄. 7개동 921세대(전용 84㎡ 중심), 공원 조망 특화·보행 중심 설계, 한양수자인 커뮤니티까지 한눈에."
@@ -86,7 +86,7 @@ const BusinessGuide1 = () => {
 
 			{/* Twitter */}
 			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:title" content="가경 홍골공원 아르보레 - 사업안내" />
+			<meta name="twitter:title" content="김포 오퍼스 한강스위첸 - 사업안내" />
 			<meta
 				name="twitter:description"
 				content="청주 가경동 공원 일체형 단지, 7개동 921세대 민간임대(분양전환 예정). 입지·사업 핵심 정보를 확인하세요."
@@ -99,7 +99,7 @@ const BusinessGuide1 = () => {
 				{JSON.stringify({
 				"@context": "https://schema.org",
 				"@type": "WebPage",
-				name: "가경 홍골공원 아르보레 - 사업안내",
+				name: "김포 오퍼스 한강스위첸 - 사업안내",
 				url: "https://www.sketchs.co.kr/BusinessGuide/intro",
 				description:
 					"충북 청주시 흥덕구 가경동 일원, 지하2~지상29층 7개 동 921세대(전용 84㎡ 중심). 10년 민간임대 후 분양전환(예정). 공원 특례 기반의 공원 일체형 설계와 편리한 생활 인프라를 갖춘 사업 개요와 입지 정보.",
@@ -128,9 +128,9 @@ const BusinessGuide1 = () => {
 			<MenuBar contents={menuContents} />
 
 			{/* SEO: 페이지 제목/설명 (스크린리더용) */}
-			<h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 사업안내</h1>
+			<h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 사업안내</h1>
 			<p className={styles.screenReaderOnly}>
-			가경 홍골공원 아르보레는 충북 청주시 흥덕구 가경동 일원에 들어서는
+			김포 오퍼스 한강스위첸는 충북 청주시 흥덕구 가경동 일원에 들어서는
 			지하 2층부터 지상 29층까지 7개 동, 총 921세대(전용 84㎡ 중심)의 민간임대 아파트입니다.
 			공원 특례 기반의 공원 일체형 설계와 한양수자인 커뮤니티를 갖추었으며,
 			10년 안정 거주 후 분양전환(예정) 혜택을 제공합니다.
@@ -139,12 +139,12 @@ const BusinessGuide1 = () => {
 			{/* 히어로 카피 */}
 			<div className={styles.textBox}>
 			<div>공원과 일상이 맞닿는 프리미엄</div>
-			<div>가경 홍골공원 아르보레, 민간임대의 새로운 기준</div>
+			<div>김포 오퍼스 한강스위첸, 민간임대의 새로운 기준</div>
 			</div>
 
 
 
-			<img className={styles.img3} src={page1} alt="가경 홍골공원 아르보레-image1"/>
+			<img className={styles.img3} src={page1} alt="김포 오퍼스 한강스위첸-image1"/>
 
 			<div className={styles.tableContainer}>
 				{!isMobile && <img className={styles.tableImg} src={tableImage} />}
