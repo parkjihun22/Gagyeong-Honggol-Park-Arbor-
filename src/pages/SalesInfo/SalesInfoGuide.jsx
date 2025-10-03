@@ -63,10 +63,10 @@ const ComplexGuide1 = () => {
 
       {/* SEO: 페이지 제목/설명 */}
       <h1 className={styles.screenReaderOnly}>
-          김포 오퍼스 한강스위첸 - 청약안내
+          가경 홍골공원 아르보레 - 청약안내
         </h1>
         <p className={styles.screenReaderOnly}>
-          김포 오퍼스 한강스위첸 민간임대 신청 안내 페이지에서는 모집 일정, 신청 자격 요건,
+          가경 홍골공원 아르보레 민간임대 신청 안내 페이지에서는 모집 일정, 신청 자격 요건,
           필요 서류와 신청 절차(온라인/현장 접수)를 확인할 수 있습니다.
           접수 전 유의사항과 당첨자 발표·계약 절차를 사전에 숙지해
           10년 안정 거주 후 분양전환(예정) 기회를 놓치지 마세요.
@@ -75,7 +75,7 @@ const ComplexGuide1 = () => {
         {/* 히어로 카피 */}
         <div className={styles.textBox}>
           <div>임대 신청 절차와 일정을 확인하세요</div>
-          <div>김포 오퍼스 한강스위첸, 안정 거주의 시작</div>
+          <div>가경 홍골공원 아르보레, 안정 거주의 시작</div>
         </div>
 
 
@@ -83,7 +83,7 @@ const ComplexGuide1 = () => {
       {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="김포 오퍼스 한강스위첸 - 청약안내문 -image1"
+        alt="가경 홍골공원 아르보레 - 청약안내문 -image1"
         onLoad={handleImageLoad}
       /> */}
       <Ready/>

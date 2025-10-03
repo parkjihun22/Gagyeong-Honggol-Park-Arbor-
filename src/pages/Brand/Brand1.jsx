@@ -50,7 +50,7 @@ const Brand1 = () => {
     return (
         <div className={styles.container}>
                 <Helmet>
-                <title>김포 오퍼스 한강스위첸 - 브랜드 소개</title>
+                <title>가경 홍골공원 아르보레 - 브랜드 소개</title>
                 <meta
                     name="description"
                     content="한양수자인의 브랜드 철학과 가치. 검증된 시공 역량과 공원 일체형 설계로 입주민의 생활 품격을 높입니다."
@@ -61,8 +61,8 @@ const Brand1 = () => {
 
                 {/* Open Graph */}
                 <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
-                <meta property="og:title" content="김포 오퍼스 한강스위첸 - 브랜드 소개" />
+                <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+                <meta property="og:title" content="가경 홍골공원 아르보레 - 브랜드 소개" />
                 <meta
                     property="og:description"
                     content="한양수자인 브랜드 소개: 고객 중심 철학과 프리미엄 품질 기준, 공원 특화 설계로 완성하는 새로운 주거 기준."
@@ -76,12 +76,12 @@ const Brand1 = () => {
                 <FixIcon />
 
                 {/* 배너 타이틀도 브랜드명으로 교체 */}
-                <Bener title="김포 오퍼스 한강스위첸" />
+                <Bener title="가경 홍골공원 아르보레" />
 
                 <MenuBar contents={menuContents} />
 
                 {/* SEO: 메인 페이지 타이틀/보이스오버 텍스트 업데이트 */}
-                <h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 브랜드 소개</h1>
+                <h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 브랜드 소개</h1>
                 <p className={styles.screenReaderOnly}>
                 한양수자인은 신뢰와 품질을 바탕으로 한 주거 브랜드입니다. 검증된 시공 역량과 세심한 설계,
                 공원 일체형 단지 계획으로 프리미엄 주거 환경을 제공합니다. 고객 중심 철학과 지속 가능한
@@ -91,12 +91,12 @@ const Brand1 = () => {
                 {/* 히어로 카피 교체 */}
                 <div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
                 <div>공원과 일상이 이어지는 곳</div>
-                <div>김포 오퍼스 한강스위첸, 새로운 주거 기준</div>
+                <div>가경 홍골공원 아르보레, 새로운 주거 기준</div>
                 </div>
 
 
 
-            {/* <img className={`${styles.image} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="김포 오퍼스 한강스위첸 brand-Image1" /> */}
+            {/* <img className={`${styles.image} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="가경 홍골공원 아르보레 brand-Image1" /> */}
             <Ready/>
 
             <Footer />

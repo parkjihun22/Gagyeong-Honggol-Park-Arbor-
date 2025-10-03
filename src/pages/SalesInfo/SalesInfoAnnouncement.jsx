@@ -79,10 +79,10 @@ const ComplexGuide1 = () => {
 
         {/* SEO: 페이지 제목/설명 (스크린리더용) */}
         <h1 className={styles.screenReaderOnly}>
-          김포 오퍼스 한강스위첸 - 모집공고안내
+          가경 홍골공원 아르보레 - 모집공고안내
         </h1>
         <p className={styles.screenReaderOnly}>
-          김포 오퍼스 한강스위첸의 임대공급(입주자) 모집공고는 청약 이전 단계에서 확인해야 할
+          가경 홍골공원 아르보레의 임대공급(입주자) 모집공고는 청약 이전 단계에서 확인해야 할
           공식 안내문입니다. 본 페이지에서는 공급 세대수와 전용면적, 임대보증금·임대료,
           신청 자격 요건과 접수 일정, 당첨자 발표 및 계약 절차, 제출 서류와 유의사항을
           체계적으로 확인하실 수 있습니다. 예비 신청자가 혼동 없이 준비하도록 핵심 정보를 제공합니다.
@@ -92,7 +92,7 @@ const ComplexGuide1 = () => {
         {/* 히어로 카피 */}
         <div className={styles.textBox}>
           <div>임대공급 모집공고를 확인하세요</div>
-          <div>김포 오퍼스 한강스위첸</div>
+          <div>가경 홍골공원 아르보레</div>
         </div>
 
 
@@ -100,7 +100,7 @@ const ComplexGuide1 = () => {
       {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="김포 오퍼스 한강스위첸모집공고안내-image1"
+        alt="가경 홍골공원 아르보레모집공고안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
          /> */}
       {/* 입주자 모집공고 PDF로 보기 버튼 */}

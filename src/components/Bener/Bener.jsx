@@ -20,7 +20,7 @@ const Bener = ({ title }) => {
             <img
                 className={`${styles.benerImage} ${isLoaded ? styles.showImage : ''}`}
                 src={img}
-                alt="김포 오퍼스 한강스위첸-benerimage"
+                alt="가경 홍골공원 아르보레-benerimage"
             />
             <div className={styles.overlay}></div>
             <div
@@ -41,11 +41,11 @@ export default Bener;
 
 // 문구만 푸르지오자이 기준으로 전면 교체한 버전
 const contents = (text, isLoaded) => { 
-  if (text === '신영지웰' || text === '홍보영상' || text === '체크포인트' || text === '당첨자서류안내' || text === '김포 오퍼스 한강스위첸') {
+  if (text === '신영지웰' || text === '홍보영상' || text === '체크포인트' || text === '당첨자서류안내' || text === '가경 홍골공원 아르보레') {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          공원을 품은 민간임대, 청주 김포 오퍼스 한강스위첸.
+          공원을 품은 민간임대, 청주 가경 홍골공원 아르보레.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
           터미널·홈플러스·순환로가 가까운 원스톱 생활 인프라.
@@ -105,7 +105,7 @@ const contents = (text, isLoaded) => {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          김포 오퍼스 한강스위첸, 공원 속에서 누리는 새로운 주거 기준.
+          가경 홍골공원 아르보레, 공원 속에서 누리는 새로운 주거 기준.
         </div>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
           한양수자인이 제안하는 10년 안정 거주와 분양전환 기회.

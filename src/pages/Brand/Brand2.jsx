@@ -45,18 +45,18 @@ const Brand2 = () => {
 	return (
 		<div className={styles.container}>
 			<Helmet>
-			<title>김포 오퍼스 한강스위첸 - 홍보영상</title>
+			<title>가경 홍골공원 아르보레 - 홍보영상</title>
 			<meta
 				name="description"
-				content="김포 오퍼스 한강스위첸 홍보영상: 홍골공원 특례사업, 총 7개동 921세대(전용 84㎡ 중심) 10년 민간임대 후 분양전환(예정). 공원 일체형 설계와 커뮤니티를 영상으로 확인하세요."
+				content="가경 홍골공원 아르보레 홍보영상: 홍골공원 특례사업, 총 7개동 921세대(전용 84㎡ 중심) 10년 민간임대 후 분양전환(예정). 공원 일체형 설계와 커뮤니티를 영상으로 확인하세요."
 			/>
 			<link rel="canonical" href="https://www.sketchs.co.kr/Brand/video" />
 			<meta name="robots" content="index,follow" />
 
 			{/* Open Graph */}
 			<meta property="og:type" content="website" />
-			<meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
-			<meta property="og:title" content="김포 오퍼스 한강스위첸 - 홍보영상" />
+			<meta property="og:site_name" content="가경 홍골공원 아르보레" />
+			<meta property="og:title" content="가경 홍골공원 아르보레 - 홍보영상" />
 			<meta
 				property="og:description"
 				content="청주 가경동, 공원과 일상이 맞닿은 아파트. 7개동 921세대(전용 84㎡), 10년 민간임대 후 분양전환(예정), 한양수자인 커뮤니티까지 영상을 통해 만나보세요."
@@ -66,7 +66,7 @@ const Brand2 = () => {
 
 			{/* Twitter */}
 			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:title" content="김포 오퍼스 한강스위첸 - 홍보영상" />
+			<meta name="twitter:title" content="가경 홍골공원 아르보레 - 홍보영상" />
 			<meta
 				name="twitter:description"
 				content="공원 특례·민간임대 프리미엄, 7개동 921세대와 한양수자인 커뮤니티를 담은 영상."
@@ -82,16 +82,16 @@ const Brand2 = () => {
 			<MenuBar contents={menuContents} />
 
 			{/* SEO: 접근성용 페이지 제목/보이스오버 텍스트 */}
-			<h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 홍보영상</h1>
+			<h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 홍보영상</h1>
 			<p className={styles.screenReaderOnly}>
-			김포 오퍼스 한강스위첸의 홍보영상을 통해 홍골공원 특례사업과 공원 일체형 설계, 총 7개동 921세대
+			가경 홍골공원 아르보레의 홍보영상을 통해 홍골공원 특례사업과 공원 일체형 설계, 총 7개동 921세대
 			전용 84㎡ 중심 구성, 한양수자인 커뮤니티 및 10년 민간임대 후 분양전환(예정) 혜택을 확인하세요.
 			</p>
 
 			{/* 히어로 카피 */}
 			<div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
 			<div>공원과 일상이 이어지는 프리미엄</div>
-			<div>김포 오퍼스 한강스위첸, 민간임대의 새로운 기준</div>
+			<div>가경 홍골공원 아르보레, 민간임대의 새로운 기준</div>
 			</div>
 
 

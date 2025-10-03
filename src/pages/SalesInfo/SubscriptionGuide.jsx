@@ -57,10 +57,10 @@ const ComplexGuide1 = () => {
   return (
     <div className={styles.container}>
         <Helmet>
-          <title>김포 오퍼스 한강스위첸 - 정당계약안내</title>
+          <title>가경 홍골공원 아르보레 - 정당계약안내</title>
           <meta
             name="description"
-            content="김포 오퍼스 한강스위첸 청약방법을 확인하세요. 청약 자격, 신청 절차, 준비서류 및 유의사항을 단계별로 상세히 안내합니다."
+            content="가경 홍골공원 아르보레 청약방법을 확인하세요. 청약 자격, 신청 절차, 준비서류 및 유의사항을 단계별로 상세히 안내합니다."
           />
           <link rel="canonical" href="https://www.sketchs.co.kr/SalesInfo/SubscriptionGuide" />
           <meta name="robots" content="index,follow" />
@@ -75,24 +75,24 @@ const ComplexGuide1 = () => {
 
         {/* SEO: 페이지 제목/설명 */}
         <h1 className={styles.screenReaderOnly}>
-          김포 오퍼스 한강스위첸 - 정당계약안내
+          가경 홍골공원 아르보레 - 정당계약안내
         </h1>
         <p className={styles.screenReaderOnly}>
-          김포 오퍼스 한강스위첸 정당계약안내 페이지에서는 청약 당첨자가 반드시 확인해야 할 
+          가경 홍골공원 아르보레 정당계약안내 페이지에서는 청약 당첨자가 반드시 확인해야 할 
           계약 자격 요건, 진행 절차, 제출 서류, 유의사항 등을 안내합니다.
           단계별 절차를 정리하여 계약자가 혼동 없이 준비할 수 있도록 돕습니다.
         </p>
 
         <div className={styles.textBox}>
           <div>청약 절차를 한눈에</div>
-          <div>김포 오퍼스 한강스위첸와 함께하세요</div>
+          <div>가경 홍골공원 아르보레와 함께하세요</div>
         </div>
 
         {/* 이미지에 애니메이션 효과 추가 */}
         {/* <img
           className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
           src={page1}
-          alt="김포 오퍼스 한강스위첸 정당계약안내 이미지"
+          alt="가경 홍골공원 아르보레 정당계약안내 이미지"
           onLoad={handleImageLoad}
         /> */}
 
@@ -100,7 +100,7 @@ const ComplexGuide1 = () => {
 
       <div className={styles.commonBox2}>
         <div className={styles.notice}>
-          ※ 김포 오퍼스 한강스위첸 정당계약안내 페이지에서는 청약 자격 조건, 신청 절차,
+          ※ 가경 홍골공원 아르보레 정당계약안내 페이지에서는 청약 자격 조건, 신청 절차,
           준비해야 할 서류, 주의사항 등을 확인할 수 있습니다.
         </div>
       </div>

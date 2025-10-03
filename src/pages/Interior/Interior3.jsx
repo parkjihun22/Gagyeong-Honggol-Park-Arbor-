@@ -65,7 +65,7 @@ const Interior3 = () => {
 
 			<div className={styles.textBox}>
           <div>일상이 더 넓어지는 </div>
-          <div>김포 오퍼스 한강스위첸, 프리미엄 인테리어를 만나보세요.</div>
+          <div>가경 홍골공원 아르보레, 프리미엄 인테리어를 만나보세요.</div>
         </div>
 
 
@@ -73,7 +73,7 @@ const Interior3 = () => {
 			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="김포 오퍼스 한강스위첸 인테리어 안내 이미지3"
+				alt="가경 홍골공원 아르보레 인테리어 안내 이미지3"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

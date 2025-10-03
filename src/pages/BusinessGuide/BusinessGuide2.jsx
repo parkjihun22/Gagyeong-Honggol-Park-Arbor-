@@ -55,10 +55,10 @@ const BusinessGuide2 = () => {
     return (
         <div className={styles.container}>
             <Helmet>
-            <title>김포 오퍼스 한강스위첸 - 분양일정</title>
+            <title>가경 홍골공원 아르보레 - 분양일정</title>
             <meta
                 name="description"
-                content="김포 오퍼스 한강스위첸 분양일정을 한눈에 확인하세요. 모델하우스 오픈, 특별공급·1순위 청약, 당첨자 발표, 계약일정 및 입주예정일까지 상세히 안내합니다."
+                content="가경 홍골공원 아르보레 분양일정을 한눈에 확인하세요. 모델하우스 오픈, 특별공급·1순위 청약, 당첨자 발표, 계약일정 및 입주예정일까지 상세히 안내합니다."
             />
             <link rel="canonical" href="https://www.sketchs.co.kr/BusinessGuide/plan" />
             <meta name="robots" content="index,follow" />
@@ -71,9 +71,9 @@ const BusinessGuide2 = () => {
             <MenuBar contents={menuContents} />
 
                 {/* SEO: 페이지 제목/설명 */}
-                <h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 분양일정</h1>
+                <h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 분양일정</h1>
                 <p className={styles.screenReaderOnly}>
-                김포 오퍼스 한강스위첸의 임대·청약 일정은 모델하우스(견본주택) 개관, 임대공급 공고,
+                가경 홍골공원 아르보레의 임대·청약 일정은 모델하우스(견본주택) 개관, 임대공급 공고,
                 특별공급 및 1순위 청약, 당첨자 발표, 계약 일정, 입주 예정, 그리고 10년 후 분양전환(예정) 안내까지
                 수요자가 꼭 알아야 할 핵심 정보를 제공합니다.
                 </p>
@@ -81,14 +81,14 @@ const BusinessGuide2 = () => {
                 {/* 히어로 카피 */}
                 <div className={styles.textBox}>
                 <div>7개동 921세대의 새로운 시작</div>
-                <div>김포 오퍼스 한강스위첸, 임대·청약 일정을 확인하세요</div>
+                <div>가경 홍골공원 아르보레, 임대·청약 일정을 확인하세요</div>
                 </div>
 
 
 
 
             {/* ✅ 기존 이미지 부분 주석 처리하고 Ready 컴포넌트 표시 */}
-            {/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="김포 오퍼스 한강스위첸 분양일정안내-image1" /> */}
+            {/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="가경 홍골공원 아르보레 분양일정안내-image1" /> */}
             <Ready/>
 
             <div className={styles.readyContainer}>

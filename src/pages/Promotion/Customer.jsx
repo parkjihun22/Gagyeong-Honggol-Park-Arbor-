@@ -67,21 +67,21 @@ export default function Customer() {
     <>
       <Helmet>
         {/* 페이지별 메타: title/description/og/canonical 만 관리 */}
-        <title>김포 오퍼스 한강스위첸 - 관심고객등록</title>
+        <title>가경 홍골공원 아르보레 - 관심고객등록</title>
         <meta
           name="description"
-          content="김포 오퍼스 한강스위첸 관심고객 등록 시 모델하우스 방문 예약 알림, 위치 및 현장 정보, 분양 일정과 혜택을 가장 먼저 받아보실 수 있습니다."
+          content="가경 홍골공원 아르보레 관심고객 등록 시 모델하우스 방문 예약 알림, 위치 및 현장 정보, 분양 일정과 혜택을 가장 먼저 받아보실 수 있습니다."
         />
         <meta name="robots" content="index,follow" />
         <link rel="canonical" href="https://www.sketchs.co.kr/Promotion/Customer" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="김포 오퍼스 한강스위첸" />
-        <meta property="og:title" content="김포 오퍼스 한강스위첸 - 관심고객등록" />
+        <meta property="og:site_name" content="가경 홍골공원 아르보레" />
+        <meta property="og:title" content="가경 홍골공원 아르보레 - 관심고객등록" />
         <meta
           property="og:description"
-          content="관심고객 등록하고 김포 오퍼스 한강스위첸 모델하우스 오픈, 청약·계약 일정, 위치/현장 소식을 가장 먼저 받아보세요."
+          content="관심고객 등록하고 가경 홍골공원 아르보레 모델하우스 오픈, 청약·계약 일정, 위치/현장 소식을 가장 먼저 받아보세요."
         />
         <meta property="og:url" content="https://www.sketchs.co.kr/Promotion/Customer" />
         <meta property="og:image" content="https://www.sketchs.co.kr/img/og/customer.jpg" />
@@ -90,7 +90,7 @@ export default function Customer() {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="김포 오퍼스 한강스위첸 - 관심고객등록" />
+        <meta name="twitter:title" content="가경 홍골공원 아르보레 - 관심고객등록" />
         <meta
           name="twitter:description"
           content="관심고객 등록 시 모델하우스 예약 알림, 위치/현장 정보, 분양 일정 등을 가장 먼저 안내드립니다."
@@ -103,10 +103,10 @@ export default function Customer() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: "김포 오퍼스 한강스위첸 - 관심고객등록",
+            name: "가경 홍골공원 아르보레 - 관심고객등록",
             url: "https://www.sketchs.co.kr/Promotion/Customer",
             description:
-              "김포 오퍼스 한강스위첸 관심고객 등록 시 모델하우스 방문 예약 알림과 위치/현장 정보, 분양 일정을 사전에 안내받을 수 있습니다.",
+              "가경 홍골공원 아르보레 관심고객 등록 시 모델하우스 방문 예약 알림과 위치/현장 정보, 분양 일정을 사전에 안내받을 수 있습니다.",
             primaryImageOfPage: {
               "@type": "ImageObject",
               contentUrl: "https://www.sketchs.co.kr/img/og/customer.jpg",
@@ -128,7 +128,7 @@ export default function Customer() {
       <FixIcon />
 
       {/* 배너 */}
-      <Bener title="김포 오퍼스 한강스위첸" />
+      <Bener title="가경 홍골공원 아르보레" />
 
       {/* 네비게이션 탭 */}
       <MenuBar contents={promoMenu} />
@@ -138,7 +138,7 @@ export default function Customer() {
         {/* ─── 좌측 카드 ─── */}
         <div className={styles.customerLeft}>
           <div className={styles.textBlock}>
-            <h2 className={styles.projectName}>김포 오퍼스 한강스위첸</h2>
+            <h2 className={styles.projectName}>가경 홍골공원 아르보레</h2>
             <h3 className={styles.pageTitle}>방문예약등록</h3>
           </div>
           <img

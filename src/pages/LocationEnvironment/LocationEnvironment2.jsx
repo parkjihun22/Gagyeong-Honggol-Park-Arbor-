@@ -46,10 +46,10 @@ const LocationEnvironment1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>김포 오퍼스 한강스위첸 - 프리미엄</title>
+        <title>가경 홍골공원 아르보레 - 프리미엄</title>
         <meta
           name="description"
-          content="김포 오퍼스 한강스위첸 프리미엄: 홍골근린공원 특례 기반의 공원 일체형 단지, 7개동 921세대(전용 84㎡ 중심) 10년 민간임대 후 분양전환(예정). 한양수자인 커뮤니티와 조경, 2·3순환로·청주강서IC·BRT·KTX 오송 접근성을 확인하세요."
+          content="가경 홍골공원 아르보레 프리미엄: 홍골근린공원 특례 기반의 공원 일체형 단지, 7개동 921세대(전용 84㎡ 중심) 10년 민간임대 후 분양전환(예정). 한양수자인 커뮤니티와 조경, 2·3순환로·청주강서IC·BRT·KTX 오송 접근성을 확인하세요."
         />
         <link rel="canonical" href="https://www.sketchs.co.kr/LocationEnvironment/primium" />
         <meta name="robots" content="index,follow" />
@@ -63,9 +63,9 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
 
       {/* SEO: 페이지 제목/설명 */}
-      <h1 className={styles.screenReaderOnly}>김포 오퍼스 한강스위첸 - 프리미엄</h1>
+      <h1 className={styles.screenReaderOnly}>가경 홍골공원 아르보레 - 프리미엄</h1>
       <p className={styles.screenReaderOnly}>
-        김포 오퍼스 한강스위첸만의 프리미엄을 만나보세요.
+        가경 홍골공원 아르보레만의 프리미엄을 만나보세요.
         홍골근린공원 특례 기반의 공원 일체형 설계, 남향 위주 배치와 공원 조망 특화,
         전용 84㎡ 중심 7개동 921세대의 10년 민간임대 후 분양전환(예정),
         한양수자인 커뮤니티와 보행 중심 단지 동선, 2·3순환로·청주강서IC·BRT·KTX 오송 연계로
@@ -75,13 +75,13 @@ const LocationEnvironment1 = () => {
       {/* 히어로 카피 */}
       <div className={styles.textBox}>
         <div>공원을 품은 일상의 프리미엄</div>
-        <div>김포 오퍼스 한강스위첸, 한양수자인이 높이는 주거 기준</div>
+        <div>가경 홍골공원 아르보레, 한양수자인이 높이는 주거 기준</div>
       </div>
 
       <img
         src={page1}
         className={styles.image3}
-        alt="김포 오퍼스 한강스위첸  프리미엄안내 이미지"
+        alt="가경 홍골공원 아르보레  프리미엄안내 이미지"
       />
 
 

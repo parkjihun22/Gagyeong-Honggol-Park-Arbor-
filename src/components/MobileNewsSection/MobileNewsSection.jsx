@@ -32,7 +32,7 @@ const MobileNewsSection = ({ newsList }) => (
     </div>
 
     <div className={styles.more}>
-      <Link to="김포 오퍼스 한강스위첸/press">보도자료 더 보기 &gt;</Link>
+      <Link to="가경 홍골공원 아르보레/press">보도자료 더 보기 &gt;</Link>
     </div>
   </section>
 );
