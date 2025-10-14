@@ -52,7 +52,7 @@ const section3Contents = [
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
     text1: `공원 특례·7개동 921세대`,
-    text2: `전용 84㎡ 중심(타입 A/B/C)<br/>
+    text2: `전용 84중심(타입 A/B/C)<br/>
             지하2~지상29층, 공원 일체형 단지`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
