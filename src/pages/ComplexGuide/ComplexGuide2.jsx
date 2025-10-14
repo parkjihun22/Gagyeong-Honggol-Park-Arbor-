@@ -9,9 +9,8 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-// import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.webp";
+import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.webp";
 
-import Ready from "../../components/Ready/Ready";
 
 
 
@@ -100,14 +99,12 @@ const ComplexGuide1 = () => {
 
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="가경 홍골공원 아르보레 호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
-
-      <Ready/>
+			/>
 
 
   

@@ -10,10 +10,10 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/FloorPlan/FloorPlan2/unit_84a.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan2/unit_84b.jpg"
 
 
-import Ready from "../../components/Ready/Ready";
+
 
 
 const FloorPlan2 = () => {
@@ -21,7 +21,7 @@ const FloorPlan2 = () => {
 		{ title: "84A", url: "/FloorPlan/59A" },
 		{ title: "84B", url: "/FloorPlan/59B" },
 		{ title: "84C", url: "/FloorPlan/84A" },
-		{ title: "84D", url: "/FloorPlan/84B" },
+		// { title: "84D", url: "/FloorPlan/84B" },
 		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 	];
@@ -73,15 +73,13 @@ const FloorPlan2 = () => {
       </div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			{/* <img
+			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="가경 홍골공원 아르보레 평면안내 이미지2"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
+			/>
 
-
-			<Ready/>
 
 
 		

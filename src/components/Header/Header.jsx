@@ -58,8 +58,8 @@ const menuArray = [
       { subTitle: "84A", subUrl: "/FloorPlan/59A" },
       { subTitle: "84B", subUrl: "/FloorPlan/59B" },
       { subTitle: "84C", subUrl: "/FloorPlan/84A" },
-      { subTitle: "84D", subUrl: "/FloorPlan/84B" },
-      { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
+      // { subTitle: "84D", subUrl: "/FloorPlan/84B" },
+      // { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
   {
@@ -106,9 +106,9 @@ export default function Header() {
         <div className={styles.mobileHeader}>
           <div onClick={() => setIsMobileMenu((v) => !v)}>
             {!isMobileMenu ? (
-              <AiOutlineMenu className={styles.icon} size={25} color="#014f51" />
+              <AiOutlineMenu className={styles.icon} size={25} color="#055f05" />
             ) : (
-              <IoCloseSharp className={styles.icon} size={25} color="#014f51" />
+              <IoCloseSharp className={styles.icon} size={25} color="#055f05" />
             )}
           </div>
           {isMobileMenu && (
@@ -122,7 +122,7 @@ export default function Header() {
             <img src={mainlogowhite} alt="Logo" className={styles.logo} />
           </Link>
           <a href="tel:1533-8848">
-            <IoCall className={styles.icon} size={25} color="#014f51" />
+            <IoCall className={styles.icon} size={25} color="#055f05" />
           </a>
         </div>
         {isInterestPopupOpen && (
