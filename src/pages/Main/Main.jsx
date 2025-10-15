@@ -255,7 +255,7 @@ const Main = () => {
               <div className={styles.overlay}></div>
               <div className={styles.mainImageTextBox}>
                 <div className={styles.mainImageTextSub}>
-                  한양수자인의 <span className={styles.highlightText}>신뢰와 품질이 빛나는</span>{" "}
+                  가경에 들어와 <span className={styles.highlightText}>신뢰와 품질이 빛나는</span>{" "}
                   <span className={styles.greyText}>브랜드 프리미엄</span>
                 </div>
                 <div className={styles.mainImageTitleBox}>
@@ -593,7 +593,7 @@ const Main = () => {
               <div className={styles.mainImageTextSub1}>
                 공원과 도심이 이어지는<br/> 새로운 주거 기준, 미래가치<br/>
                 가경 홍골공원 아르보레가<br/> 제시하는 프리미엄 라이프<br />
-                <span className={styles.greyText1}>한양수자인 브랜드 프리미엄</span>
+                <span className={styles.greyText1}>브랜드 프리미엄</span>
                 <br />
               </div>
               <div className={styles.mainImageTitleBox1}>
